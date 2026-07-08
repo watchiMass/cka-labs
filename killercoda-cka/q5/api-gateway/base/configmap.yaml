@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: horizontal-scaling-config
+data:
+  mode: "external"
+  min: "2"
+  max: "4"
